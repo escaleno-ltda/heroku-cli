@@ -6,6 +6,7 @@ Docker image with alpine, heroku and docker
 ```yml
 production:
   stage: deploy
+  image: escaleno/heroku-cli:7.42.2
   services:
     - docker:dind
   variables:
