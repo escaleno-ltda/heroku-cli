@@ -2,7 +2,7 @@ FROM node:14.19.0-alpine3.15
 
 LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
-ENV VERSION=7.42.2
+ENV VERSION=7.59.3
 
 WORKDIR /home/node
 
